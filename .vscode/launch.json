@@ -12,7 +12,7 @@
             "type": "cppdbg",
             "request": "launch",
 
-            "program": "${workspaceFolder}/login",
+            "program": "${workspaceFolder}/src/login",
             "args": [],
 
             "stopAtEntry": true,
