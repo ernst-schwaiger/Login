@@ -2,7 +2,7 @@ CC=g++
 #use for debugging and for getting the password hash
 #CCOPTS=-ggdb3 -O0 -DDEBUG -Wall
 # production use, faster
-CCOPTS= -O2
+CCOPTS= -O2 -Wall
 all: login
 
 login: main.o Hasher.o Auth.o
