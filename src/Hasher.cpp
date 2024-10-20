@@ -1,10 +1,9 @@
 #include "Hasher.h"
-// sudo apt install libssl-dev
 #include <openssl/evp.h>
 
 using namespace std;
 
-constexpr uint32_t NUM_HASH_LOOPS = 12000;
+constexpr uint32_t NUM_HASH_LOOPS = 15000;
 
 optional<std::array<uint8_t, SHA256_LEN_BYTES>>
 Hasher::getHash(uint8_t const *in, size_t length) const

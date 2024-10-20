@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
     {
         if (username == "root")
         {
-            cout << "You have the keys to the kingdom Your Majesty, please enter." << std::endl;
+            cout << "Have the keys to the kingdom Your Majesty." << std::endl;
         } else if (username == "user")
         {
             cout << "Here's the shovel, now start digging, peasant!" << std::endl;
